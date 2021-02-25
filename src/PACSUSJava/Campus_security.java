@@ -1,4 +1,3 @@
-import java.util.Observable;
 import java.util.Observer;
 
 import javax.swing.JFrame;
@@ -40,13 +39,4 @@ public class Campus_security extends JFrame implements Observer {
      * @label Control/monitor
      * @directed*/
     private System_status lnkSystem_status;
-
-    Campus_security(System_status systemStatus, Vehicle_list vehicleList) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void update(Observable arg0, Object arg1) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }
